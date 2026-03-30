@@ -7,43 +7,26 @@ import { faGithub, faInstagram, faFacebook } from "@fortawesome/free-brands-svg-
 
 export default function Contact() {
     const socials = [
-        {
-            name: "Email",
-            link: "mailto:szombathrobert4@gmail.com",
-            label: "Írj e-mailt bátran",
-            icon: faEnvelope
-        },
-        {
-            name: "GitHub",
-            link: "https://github.com/szombathrobert",
-            label: "Projektjeim kódrészeit itt éred el",
-            icon: faGithub
-        },
-        {
-            name: "Instagram",
-            link: "https://instagram.com/a-te-neved",
-            label: "Instagramon itt érsz el",
-            icon: faInstagram
-        },
-        {
-            name: "Facebook",
-            link: "https://facebook.com/a-te-neved",
-            label: "Facebookon itt érsz el",
-            icon: faFacebook
-        },
+        { name: "Email", link: "mailto:szombathrobert4@gmail.com", label: "Írj e-mailt bátran", icon: faEnvelope },
+        { name: "GitHub", link: "https://github.com/szombathrobert", label: "Github profilom", icon: faGithub },
+        { name: "Instagram", link: "https://instagram.com/a-te-neved", label: "Instagram profilom", icon: faInstagram },
+        { name: "Facebook", link: "https://facebook.com/a-te-neved", label: "Facebook profilom", icon: faFacebook },
     ];
 
     return (
         <section id="kapcsolat" className="max-w-6xl mx-auto px-6 py-32 relative z-10 text-center">
 
-            <motion.h2
+            <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="text-4xl md:text-5xl font-extrabold mb-6"
+                className="flex flex-col items-center mb-12"
             >
-                Lépjünk <span className="text-bloodOrange">Kapcsolatba</span>
-            </motion.h2>
+                <h2 className="text-4xl md:text-5xl font-black text-white tracking-tight flex items-center gap-4">
+                    <span className="text-bloodOrange">{'//'}</span> Kapcsolat
+                </h2>
+                <div className="w-24 h-1 bg-linear-to-r from-electricBlue to-transparent mt-4" />
+            </motion.div>
 
             <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -52,7 +35,7 @@ export default function Contact() {
                 transition={{ delay: 0.1 }}
                 className="text-zinc-400 text-lg mb-16 max-w-2xl mx-auto leading-relaxed"
             >
-                Van egy jó ötleted, egy projekted, de nem tudod, hogy kell kivitelezni, vagy esetleg nincs rá időd? Lépj kapcsolatba velem valamilyen formában és megbeszéljük!
+                Van egy jó ötleted, egy projekted és nem tudod hogy kell kivitelezni? Írj nekem e-mailt, vagy keress meg a közösségi platformokon!
             </motion.p>
 
             <motion.div
@@ -68,13 +51,13 @@ export default function Contact() {
                         href={social.link}
                         target={social.name === "Email" ? "_self" : "_blank"}
                         rel="noopener noreferrer"
-                        className="group p-8 bg-zinc-900/50 border border-zinc-800 rounded-2xl hover:border-bloodOrange/50 transition-all duration-300 hover:-translate-y-2 cursor-pointer flex flex-col items-center shadow-xl hover:shadow-bloodOrange/5"
+                        className="group p-8 bg-midnight/80 backdrop-blur-sm border border-zinc-800/80 rounded-2xl hover:border-electricBlue/50 transition-all duration-300 hover:-translate-y-2 cursor-pointer flex flex-col items-center shadow-lg hover:shadow-[0_0_25px_rgba(6,182,212,0.2)]"
                     >
-                        <div className="text-5xl text-zinc-600 group-hover:text-bloodOrange transition-colors duration-300 mb-6">
+                        <div className="text-5xl text-zinc-600 group-hover:text-electricBlue transition-all duration-300 mb-6 group-hover:drop-shadow-[0_0_15px_rgba(6,182,212,0.8)]">
                             <FontAwesomeIcon icon={social.icon} />
                         </div>
 
-                        <span className="text-zinc-500 text-xs font-semibold uppercase tracking-wider mb-2">
+                        <span className="text-zinc-500 text-xs font-bold uppercase tracking-wider mb-2">
                             {social.name}
                         </span>
 
