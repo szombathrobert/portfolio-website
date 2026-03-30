@@ -9,8 +9,8 @@ export default function Contact() {
     const socials = [
         { name: "Email", link: "mailto:szombathrobert4@gmail.com", label: "Írj e-mailt bátran", icon: faEnvelope },
         { name: "GitHub", link: "https://github.com/szombathrobert", label: "Github profilom", icon: faGithub },
-        { name: "Instagram", link: "https://instagram.com/a-te-neved", label: "Instagram profilom", icon: faInstagram },
-        { name: "Facebook", link: "https://facebook.com/a-te-neved", label: "Facebook profilom", icon: faFacebook },
+        { name: "Instagram", link: "https://instagram.com/cut.up.my.fxcking.neck", label: "Instagram profilom", icon: faInstagram },
+        { name: "Facebook", link: "https://www.facebook.com/people/R%C3%B3bert-Szombath/pfbid0MsF6uAxCEmBgM8Xxdm65C8iyGWv7NX3deRTmwxMvBmSPQwH6kKiLNJ4a1FYsMynfl/", label: "Facebook profilom", icon: faFacebook },
     ];
 
     return (
