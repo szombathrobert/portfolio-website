@@ -72,7 +72,7 @@ export default function Hero() {
                     </div>
 
                     <p className="text-lg text-zinc-300 max-w-2xl mx-auto leading-relaxed pt-4 border-t border-zinc-800/50">
-                        Letisztult webes megoldásokat és betonbiztos Windows szerver-infrastruktúrát építek.
+                        Letisztult, gyors weblapokat készítek és Windows szerver-infrastruktúrát tartok karban.
                         Szeretem a <strong className="text-white">tiszta kódot</strong>, a <strong className="text-electricBlue">modern témákat</strong> és a maximális rendszerteljesítményt.
                     </p>
 
