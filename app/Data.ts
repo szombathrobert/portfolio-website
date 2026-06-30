@@ -50,4 +50,38 @@ export const projectsData = [
       "Kiváló és pontos SEO valamint GEO optimalizálás"
     ]
   },
+  {
+    id: "endomedical",
+    title: "Endomedical",
+    description: "Modern és megbízható webes jelenlét egy magánorvosi klinika számára, fókuszban a páciensek tájékoztatása.",
+    fullDescription: "Az endomedical.hu célja egy olyan letisztult, orvosi környezethez illő weboldal kialakítása volt, amely gyorsan és érthetően mutatja be a klinika szolgáltatásait. A modern frontend megoldások garantálják a stabil és gyors működést.",
+    link: "https://endomedical.hu",
+    github: "https://github.com/szombathrobert/endomedical",
+    image: "/projects/endomedical.webp",
+    tech: ["Next.js", "TailwindCSS", "Frontend"],
+    features: [
+      "Letisztult, professzionális orvosi dizájn, amely azonnali bizalmat ébreszt a páciensekben",
+      "Gyors és átlátható navigáció a különböző szakrendelések és orvosok között",
+      "Mobilra és asztali gépre egyaránt tökéletesen optimalizált (reszponzív) megjelenés",
+      "Könnyen megtalálható és integrált kapcsolati, illetve időpontfoglalási információk",
+      "Kiemelkedő betöltési sebesség a gördülékeny felhasználói élményért"
+    ]
+  },
+  {
+    id: "ct-diagnosztika",
+    title: "CT-Diagnosztika",
+    description: "Gyors és informatív platform a modern képalkotó diagnosztikai szolgáltatások bemutatására.",
+    fullDescription: "A CT-diagnosztika weboldal kifejezetten azzal a céllal készült, hogy a páciensek minden szükséges technikai és előkészületi információt megtaláljanak a vizsgálatokkal kapcsolatban, egy átlátható, villámgyors felületen.",
+    link: "https://ct-diagnosztika.hu",
+    github: "https://github.com/szombathrobert/ct-diagnosztika",
+    image: "/projects/ct-diagnosztika.webp",
+    tech: ["ReactJS", "UI/UX", "SEO"],
+    features: [
+      "Részletes, mégis laikusok számára is könnyen érthető tájékoztatás a CT vizsgálatok menetéről",
+      "Páciens-fókuszú UX/UI kialakítás a zökkenőmentes és stresszmentes információszerzésért",
+      "Keresőoptimalizált (SEO) felépítés a könnyebb megtalálhatóság érdekében",
+      "Magas teljesítményű, akadálymentesített frontend, amely minden eszközön hibátlanul fut",
+      "Letisztult ártáblázatok és szolgáltatás-csomagok bemutatása"
+    ]
+  }
 ];
