@@ -91,15 +91,6 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
                     >
                         Élő weboldal megtekintése
                     </a>
-
-                    <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="group relative px-8 py-4 bg-transparent text-electricBlue font-bold tracking-widest uppercase text-sm rounded cursor-pointer w-full sm:w-auto text-center border-2 border-electricBlue/50 hover:border-electricBlue hover:bg-electricBlue/10 hover:shadow-[0_0_25px_rgba(6,182,212,0.3)] transition-all duration-300"
-                    >
-                        GitHub Repó megtekintése
-                    </a>
                 </div>
 
             </div>

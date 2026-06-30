@@ -5,7 +5,6 @@ export const projectsData = [
     description: "Gyors és reszponzív weboldal, ami modern ReactJS alapokra épült.",
     fullDescription: "A babapiercing.hu oldal célja egy bizalomgerjesztő, gyors és könnyen áttekinthető felület létrehozása volt az igény ami miatt ReactJS-t használtam a dinamikus felhasználói élményért.",
     link: "https://babapiercing.hu",
-    github: "https://github.com/szombathrobert/Babapiercing",
     image: "/projects/babapiercing.webp",
     tech: ["ReactJS", "Frontend", "TailwindCSS"],
     features: [
@@ -22,7 +21,6 @@ export const projectsData = [
     description: "Komplexebb, full-stack megoldás. Next.js felel a gyors frontendért, Node.js pedig a megbízható backendért.",
     fullDescription: "Ez a projekt egy teljes értékű webes alkalmazás. A Next.js biztosítja a villámgyors betöltést és a SEO-t, míg a Node.js backend kezeli a komplexebb üzleti logikát és adatokat.",
     link: "https://nyitottter-zsuzskaval.hu",
-    github: "https://github.com/szombathrobert/nyitottter-zsuzskaval",
     image: "/projects/nyitottter-zsuzskaval.webp",
     tech: ["Next.js", "Node.js", "Full-Stack"],
     features: [
@@ -39,7 +37,6 @@ export const projectsData = [
     description: "Letisztult, teljesítményre optimalizált Next.js projekt a tökéletes felhasználói élményért.",
     fullDescription: "Az oxigenkamra.hu esetében a letisztult UI és a maximális teljesítmény volt a fókuszban. A Next.js App Router segítségével gyors oldalváltásokat és modern dizájnt értünk el.",
     link: "https://oxigenkamra.hu",
-    github: "https://github.com/szombathrobert4/ide-majd-ird-be",
     image: "/projects/oxigenkamra.webp",
     tech: ["Next.js", "UI/UX", "Vercel"],
     features: [
@@ -56,7 +53,6 @@ export const projectsData = [
     description: "Modern és megbízható webes jelenlét egy magánorvosi klinika számára, fókuszban a páciensek tájékoztatása.",
     fullDescription: "Az endomedical.hu célja egy olyan letisztult, orvosi környezethez illő weboldal kialakítása volt, amely gyorsan és érthetően mutatja be a klinika szolgáltatásait. A modern frontend megoldások garantálják a stabil és gyors működést.",
     link: "https://endomedical.hu",
-    github: "https://github.com/szombathrobert/endomedical",
     image: "/projects/endomedical.webp",
     tech: ["Next.js", "TailwindCSS", "Frontend"],
     features: [
@@ -73,7 +69,6 @@ export const projectsData = [
     description: "Gyors és informatív platform a modern képalkotó diagnosztikai szolgáltatások bemutatására.",
     fullDescription: "A CT-diagnosztika weboldal kifejezetten azzal a céllal készült, hogy a páciensek minden szükséges technikai és előkészületi információt megtaláljanak a vizsgálatokkal kapcsolatban, egy átlátható, villámgyors felületen.",
     link: "https://ct-diagnosztika.hu",
-    github: "https://github.com/szombathrobert/ct-diagnosztika",
     image: "/projects/ct-diagnosztika.webp",
     tech: ["ReactJS", "UI/UX", "SEO"],
     features: [
