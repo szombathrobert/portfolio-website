@@ -78,5 +78,20 @@ export const projectsData = [
       "Magas teljesítményű, akadálymentesített frontend, amely minden eszközön hibátlanul fut",
       "Letisztult ártáblázatok és szolgáltatás-csomagok bemutatása"
     ]
-  }
+  },
+  {
+    id: "endolife",
+    title: "Endolife Longevity Központ",
+    description: "Egy letisztult modern weboldal a fitalság megörzésének.",
+    fullDescription: "Az Endolife azzal a céllal készült el, hogy akik szeretnék megfiatalítani a biológiai órájuk, azokat is pontos és informatív weboldalt kapjon.",
+    link: "https://endolife.hu/",
+    image: "/projects/endolife.webp",
+    tech: ["ReactJS", "UI/UX", "SEO"],
+    features: [
+      "Részletes, mégis laikusok számára is könnyen érthető tájékoztatás arról, hogy mi is az a Longevity",
+      "Letiszult, modern UX/UI kialakítás a zökkenőmentes és stresszmentes információszerzésért",
+      "Magas teljesítményű, akadálymentesített frontend, amely minden eszközön hibátlanul fut",
+      "Letisztult és szolgáltatás-csomagok bemutatása"
+    ]
+  },
 ];
